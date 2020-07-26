@@ -1,5 +1,5 @@
 /* Home Page */
-.top {
+.intro {
     background-image: url(../images/runner.jpg);
     background-position: center;
     background-size: cover;
@@ -68,7 +68,11 @@
 /* Media Queries */
 @media screen and (max-width: 1150px) {
 
-    .top {
+    body {
+        overflow: visible;
+    }
+
+    .intro {
         height: 1400px;
     }
 
