@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
     <title>Tri State Running Company</title>
 </head>
 <body>
-    
+
+    <div class="container first">
+
+        <div class="slideshow">
+
+            <div class="slides fade">
+              <img src="./images/nowopen.jpg">
+            </div>
+
+            <div class="slides fade">
+                <img src="./images/virtual.jpeg">
+            </div>
+          
+            <div class="slides fade">
+              <img src="./images/cards.png">
+            </div>
+          
+            <div class="slides fade">
+              <img src="./images/hours.jpg"> 
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
