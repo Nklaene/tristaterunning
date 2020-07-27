@@ -78,3 +78,14 @@ document.querySelector('.first').prepend(navTemplate);
 
 let slideIndex = 1;
 showSlides(slideIndex);
+
+// Going to make an array of objects for quick insertion of items in the store
+let items = [
+
+    {
+        name: "",
+        url: "",
+        price: 1
+    },
+
+];

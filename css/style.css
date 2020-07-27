@@ -21,7 +21,7 @@ html {
 
 /* Nav Bar */
 .nav-bar {
-    background-color:rgba(255, 100, 35, 0.2);
+    background-color:#33aaff;
 }
 
 .nav-items {
@@ -42,7 +42,7 @@ html {
 
 .nav-item a {
     text-decoration: none;
-    color: #aaa;
+    color: #eee;
     font-weight: 600;
     font-size: 1.2rem;
 }
@@ -58,4 +58,22 @@ html {
 .logo img {
     width: 220px;
     height: 70px;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .nav-items {
+        display: block;
+        width: 100%;
+        padding-inline-start: 0;
+    }
+
+    .nav-item a {
+        margin: 0 auto;
+    }
+
+    .logo img {
+        margin: 0 auto;
+    }
+
 }

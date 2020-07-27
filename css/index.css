@@ -2,6 +2,9 @@ body {
     overflow: hidden;
 }
 
+.nav-bar {
+    background-color:rgba(255, 100, 35, 0.2);
+}
 /* Home Page */
 .intro {
     background-image: url(../images/runner.jpg);
@@ -87,20 +90,6 @@ body {
     .btn {
         width: 60%;
         margin: 0 auto 1rem auto;
-    }
-
-    .nav-items {
-        display: block;
-        width: 100%;
-        padding-inline-start: 0;
-    }
-
-    .nav-item a {
-        margin: 0 auto;
-    }
-
-    .logo img {
-        margin: 0 auto;
     }
 
     .main {
