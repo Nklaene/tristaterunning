@@ -67,8 +67,15 @@ let items = [
     new ShopItem('https://a248.e.akamai.net/f/248/9086/10h/wolverine-o.scene7.com/is/image/WolverineWorldWide/S20551-40_2?wid=445&hei=367&fmt=jpeg&qlt=90,0&op_sharpen=1&resMode=sharp2&op_usm=.5,1,1,0&iccEmbed=0&printRes=72',
     'Saucony Kinvara 11',
     '$120'
-    )
+    ),
 
+    new ShopItem('https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8594114d-e662-4cf9-bec2-a53181568221/flex-stride-mens-5-2-in-1-running-shorts-mRSgSF.jpg',
+    'Nike Flex Stride', 
+    '$55'),
+
+    new ShopItem('https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-92bdd17a-a8d9-41c7-83c4-5155f0dcbae0/aeroswift-mens-1-2-length-running-tights-dDSJ0x.jpg',
+    'Nike AeroSwift',
+    '$80')
 ];
 
 // loop through array and add to store
