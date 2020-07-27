@@ -6,7 +6,6 @@ class ShopItem {
     }
 }
 
-
 htmlToElement = html => {
     let template = document.createElement('template');
     html = html.trim();
@@ -21,6 +20,7 @@ addItemToShop = (url, name, price) => {
         <div class="text">
             <p>${name}</p>
             <p>${price}</p>
+            <a class="buy-btn">Buy Now</a>
         </div>
     </div>`
     let element = htmlToElement(template);
@@ -57,7 +57,18 @@ let items = [
     new ShopItem('https://m.media-amazon.com/images/I/710cpadswoL._AC_SR700,525_.jpg',
     'Brooks Launch 7',
     '$75'
+    ),
+
+    new ShopItem('https://a248.e.akamai.net/f/248/9086/10h/wolverine-o.scene7.com/is/image/WolverineWorldWide/S20579-40_2?wid=790&hei=657&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=sharp2&op_usm=.5,1,1,0&iccEmbed=0&printRes=72',
+    'Saucony Ride 13',
+    '$130'
+    ),
+
+    new ShopItem('https://a248.e.akamai.net/f/248/9086/10h/wolverine-o.scene7.com/is/image/WolverineWorldWide/S20551-40_2?wid=445&hei=367&fmt=jpeg&qlt=90,0&op_sharpen=1&resMode=sharp2&op_usm=.5,1,1,0&iccEmbed=0&printRes=72',
+    'Saucony Kinvara 11',
+    '$120'
     )
+
 ];
 
 // loop through array and add to store
