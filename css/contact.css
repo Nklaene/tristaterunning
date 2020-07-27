@@ -74,6 +74,7 @@ input, p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
+    padding-bottom: 4rem;
 }
 
 .location {
@@ -108,6 +109,10 @@ input, p {
 
     .submit {
         grid-column: 1;
+    }
+
+    .locations {
+        grid-template-columns: 1fr;
     }
 
 }
