@@ -1,0 +1,39 @@
+.steps {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    border: 2px solid #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--primary);
+    box-shadow: 2px 2px 3px 1px #888;
+}
+
+.step:hover {
+    border-color: var(--primary);
+    cursor: pointer;
+}
+
+.step img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .step {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .step {
+        flex-basis: 90%;
+    }
+}
