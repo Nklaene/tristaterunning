@@ -35,6 +35,11 @@ let navHTML = `
         </div>
 `;
 
+let footerHTML = `
+
+
+`
+
 // Functions
 
 //Utility function to make an html element

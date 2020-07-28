@@ -20,7 +20,7 @@ addItemToShop = (url, name, price) => {
         <div class="text">
             <p>${name}</p>
             <p>${price}</p>
-            <a class="buy-btn">Buy Now</a>
+            <a class="buy-btn">Add to cart</a>
         </div>
     </div>`
     let element = htmlToElement(template);

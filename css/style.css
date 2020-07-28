@@ -56,8 +56,8 @@ html {
 }
 
 .logo img {
-    width: 220px;
-    height: 70px;
+    width: 150px;
+    height: 45px;
 }
 
 @media screen and (max-width: 1150px) {
