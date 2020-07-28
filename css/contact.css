@@ -54,8 +54,8 @@ input, p {
 
 .submit {
     grid-column: 10;
-    background-color: #33aaff;
-    border: 2px solid #33aaff;
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
     color: #fff;
     font-weight: bold;
     cursor: pointer;
@@ -63,7 +63,7 @@ input, p {
 
 .submit:hover {
     background: transparent;
-    color: #33aaff;
+    color: var(--primary);
 }
 
 .locations {

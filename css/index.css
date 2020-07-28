@@ -2,9 +2,6 @@ body {
     overflow: hidden;
 }
 
-.nav-bar {
-    background-color:rgba(255, 100, 35, 0.2);
-}
 /* Home Page */
 .intro {
     background-image: url(../images/runner.jpg);
