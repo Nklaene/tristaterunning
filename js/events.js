@@ -51,6 +51,7 @@ addEventToEvents = event => {
             <p>${event.date}</p>
             <p>${event.size}</p>
             <p>${event.distance}</p>
+            <a class="btn">Sign up</a>
         </div>
     </div>
     `
