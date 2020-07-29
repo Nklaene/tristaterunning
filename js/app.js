@@ -36,8 +36,9 @@ let navHTML = `
 `;
 
 let footerHTML = `
-
-
+    <footer>
+        <p>&copy;Tri State Running Company 2020<br>All Rights Reserved</p>
+    </footer>
 `
 
 // Functions
@@ -50,6 +51,8 @@ htmlToElement = html => {
     return template.content.firstChild;
 };
 
-// Adding nav template to each page
+// Adding nav & footer template to each page
 let navTemplate = htmlToElement(navHTML);
 document.querySelector('.first').prepend(navTemplate);
+let footerTemplate = htmlToElement(footerHTML);
+document.querySelector('body').append(footerTemplate);

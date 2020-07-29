@@ -1,12 +1,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    margin: 4rem auto;
+    margin: 3rem auto;
     width: 60%;
 }
 
 h1, h2 {
-    color: #0099ff;
+    color: var(--primary);
 }
 
 @media screen and (max-width: 1000px) {

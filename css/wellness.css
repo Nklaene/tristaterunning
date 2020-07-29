@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.partners {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.partner {
+    flex-basis: 40%;
+    box-shadow: 1px 2px 1px 1px #777;
+    padding: 0.8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.partner:hover {
+    box-shadow: 2px 2px 2px 1px #333;
+}
+
+@media screen and(max-width: 1000px) {
+    .partner {
+        flex-basis: 60%;
+    }
+}
