@@ -34,7 +34,7 @@ let steps = [
     new Step('5. Shoe Recommendations', 'https://cdn.tristaterunning.com/client/to_webp,q_lossy,ret_img,w_682/https://tristaterunning.com/wp-content/uploads/2020/04/Snag_928efb.png', "We’ll show you shoes that will be the best fit for you and your needs. Pick what you like! Need other goodies to keep you running? We can recommend apparel and accessories too!"),
     new Step('6. Order shoes online', 'https://cdn.tristaterunning.com/client/to_webp,q_lossy,ret_img,w_671/https://tristaterunning.com/wp-content/uploads/2020/04/Snag_93130f.png', 'We’ll guide you to our online shop to complete your shopping experience. Shoes can be shipped or picked up curbside at select stores.'),
     new Step('7. Unboxing', 'https://cdn.tristaterunning.com/client/to_webp,q_lossy,ret_img,w_665/https://tristaterunning.com/wp-content/uploads/2020/04/Snag_93b3f3.png', 'Yay, your perfect shoe arrived! If you’re not happy, we will happily arrange a new virtual fitting to exchange for better fit or offer a refund.'),
-    new Step('9. Keep Moving', 'https://cdn.tristaterunning.com/client/to_webp,q_lossy,ret_img,w_674/https://tristaterunning.com/wp-content/uploads/2020/04/Snag_943807.png', 'Get out where you can and enjoy your run. Follow us on social for social distancing runs, challenges, and community connection.')
+    new Step('8. Keep Moving', 'https://cdn.tristaterunning.com/client/to_webp,q_lossy,ret_img,w_674/https://tristaterunning.com/wp-content/uploads/2020/04/Snag_943807.png', 'Get out where you can and enjoy your run. Follow us on social for social distancing runs, challenges, and community connection.')
 ];
 
 for(let i = 0; i < steps.length; i++) {
